@@ -8,10 +8,13 @@ An easy to grok ES6 / BDD scaffold. Using:
 *   babel (es6 transpiler)
 *   testem
 
-
 ####Setup
 
+IN PROGRESS. 
+CURRENTLY CLONE THE REPO AND SELF-SETUP
+<!--
 ```
 npm install -g generator-testem-babel
 yo testem-babel
 ```
+-->
