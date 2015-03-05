@@ -1,11 +1,8 @@
 {
-  "name": "generator-testem-babel",
+  "name": "generator-mocha-testem-babel",
   "version": "0.1.0",
   "description": "A bare bones skeleton for ES6 projects managed by testem",
-  "preinstall": "npm install -g bower testem",
-  "scripts": {
-    "test": "testem"
-  },
+  "preinstall": "npm install -g yo",
   "repository": {
     "type": "git",
     "url": "https://github.com/btburton42/generator-testem-babel"
@@ -28,13 +25,5 @@
   "homepage": "https://github.com/btburton42/generator-testem-babel",
   "dependencies": {
     "yeoman-generator": "^0.17.3"
-  },
-  "devDependencies": {
-    "del": "^1.1.1",
-    "gulp": "^3.8.11",
-    "gulp-babel": "^4.0.0",
-    "gulp-concat": "^2.5.2",
-    "gulp-sourcemaps": "^1.5.0",
-    "testem": "~0.6.7"
   }
 }
