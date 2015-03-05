@@ -8,13 +8,24 @@ An easy to grok ES6 / BDD scaffold. Using:
 *   babel (es6 transpiler)
 *   testem
 
-####Setup
+###Setup
 
-IN PROGRESS. 
-CURRENTLY CLONE THE REPO AND SELF-SETUP
-<!--
+####Create a project directory for the generator (until published in npm)
 ```
-npm install -g generator-testem-babel
-yo testem-babel
+git clone git@github.com:btburton42/generator-mocha-testem-babel.git
 ```
--->
+
+####Then, from inside that project directory
+```
+npm install
+npm link
+```
+
+####Then from inside another directory where you wish to initialize the project
+```
+yo mocha-testem-babel
+```
+
+####Running the scripts. 
+
+In one terminal shell, run `gulp`, in the another shell run `testem`. Magic should happen.
